@@ -1,0 +1,14 @@
+Package: anchap
+Type: Package
+Title: Finds IBD sharing from genotypes of individuals living in an
+        isolated population, and does phasing.
+Version: 2.2
+Date: 2013-06-18
+Author: Dominik Glodzik <Dominik.Glodzik@hgu.mrc.ac.uk>
+Maintainer: Dominik Glodzik <Dominik.Glodzik@hgu.mrc.ac.uk>
+Description: Finds IBD sharing from comparisons of pairs of genotypes. Searches for long sequences of alleles without opposing homozygotes. The aligns the shared sequences and uses them for phasing. When the haplotypes are nearly completely known, finds more sharing between individuals by comparing their haplotypes. Finally, uses the knowledge about sharing between individuals to optimise the design of re-sequencing studies.
+License: GPL-2
+LazyLoad: no
+LazyData: yes
+Depends: snpStats
+Packaged: 2013-06-18 14:28:40 UTC; dglodzik

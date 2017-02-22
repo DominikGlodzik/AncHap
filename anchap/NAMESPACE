@@ -1,0 +1,15 @@
+
+export("loadData2")
+
+export("scanSurrs")
+export("scanIBD2")
+export("phase")
+export("phaseGenDist")
+
+export("scanSurrsHapDf")
+export("surrMatToDf")
+export("pickReseqIndsFast")
+
+export("computeSurrDensity")
+
+useDynLib(anchap, ibdThresh, doFastPhasing, ibdFastExtract, oppHCounter, roh, ibd2)
